@@ -1,0 +1,16 @@
+{
+  "name": "javascript_is_bae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "javascript_lokoja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mysql": "^2.14.1"
+  }
+}

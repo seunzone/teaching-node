@@ -23,11 +23,16 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 })
 
+//Require About Page
+app.get('/about', function (req, res) {
+  res.send('This is our about Page');
+})
+
 
 //Creating More than Just the Default Route
-app.get('/message', function (req, res) {
-  res.send('Another One');
-})
+// app.get('/message', function (req, res) {
+//   res.send('Another One');
+// })
 
 //Here We indicate the Port to be listened
 app.listen(3000, function () {
